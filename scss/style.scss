@@ -1,0 +1,40 @@
+@import "mixins";
+@import "vars";
+
+body {
+    margin: 0;
+}
+
+nav {
+    background: #333;
+    ul {
+        display: inline-flex;
+        li{
+            padding: 10px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color:#d9d9cd;
+                font-size: 20px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.brand {
+    width: 20%;
+    float: left;
+    margin-top: 17px;
+    padding-left: 15px;
+
+    a{
+        text-decoration: none;
+        color:#e8d1a8;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+
+}

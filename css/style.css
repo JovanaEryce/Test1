@@ -1,0 +1,29 @@
+body {
+  margin: 0; }
+
+nav {
+  background: #333; }
+  nav ul {
+    display: inline-flex; }
+    nav ul li {
+      padding: 10px;
+      list-style: none; }
+      nav ul li a {
+        text-decoration: none;
+        color: #d9d9cd;
+        font-size: 20px; }
+        nav ul li a:hover {
+          text-decoration: underline; }
+
+.brand {
+  width: 20%;
+  float: left;
+  margin-top: 17px;
+  padding-left: 15px; }
+  .brand a {
+    text-decoration: none;
+    color: #e8d1a8;
+    font-size: 30px;
+    padding-left: 15px; }
+
+/*# sourceMappingURL=style.css.map */
